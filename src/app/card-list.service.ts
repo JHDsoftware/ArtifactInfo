@@ -18,7 +18,7 @@ export class CardListService {
 
         return this.http.get(this.CardUrl)
             .pipe(
-                tap(data => console.log(data)),
+                tap(data => this.log("!cardList load complete.")),
                 catchError(this.handleError('getHeroes', []))
             );
 
