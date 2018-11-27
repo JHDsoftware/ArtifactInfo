@@ -1,1 +1,93 @@
-/* You can add global styles to this file, and also import other style files */
+.bg_container {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+    overflow: hidden;
+}
+.bg1 {
+
+    text-align: center;
+}
+.full_page_content {
+    position: relative;
+    margin: 0 auto;
+    z-index: 10;
+}
+
+#video_container
+{
+    position: relative;
+
+    margin-right: auto;
+    margin-left: auto;
+    z-index: -1;
+    overflow: visible;
+}
+@media only screen and (min-width: 1000px)
+{
+    #video_container
+    {
+        height: 750px;
+        width: 976px;
+    }
+}
+
+#header_video
+{
+    height: 93.75vw;
+    width: 200vw;
+    left: calc( -50vw - ((100vw - 100%)/2));
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+@media only screen and (min-width: 1000px)
+{
+    #header_video
+    {
+        height: 750px;
+        width: 1600px;
+        left: -312px;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
+}
+body {
+    background-color: #000;
+    font-family: "Radiance", sans-serif;
+    margin: 0px;
+    color:white;
+}
+
+.artifact_logo_top
+{
+    margin-top: 22.5vw;
+    z-index: 8;
+    width: 80vw;
+}
+@media only screen and (min-width: 1000px)
+{
+    .artifact_logo_top
+    {
+        width: auto;
+        margin-top: 180px;
+        z-index: 8;
+    }
+}
+.brand-logo{
+    margin-left: 3vw;
+}
+.card-item{
+    height: 300px;
+}
+.card-image{
+    width: 100%;
+
+
+}
+.card-image img{
+    width: 100%;
+}
