@@ -8,7 +8,7 @@ import { MessageService } from './message.service';
   providedIn: 'root'
 })
 export class CardListService {
-    private CardUrl = '../assets/BaseCard.json';
+    private CardUrl = '/assets/BaseCard.json';
 
 
     constructor(  private http: HttpClient,
